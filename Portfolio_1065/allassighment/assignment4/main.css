@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+body{
+	background: linear-gradient(135deg, #db99af 0%, #2a5298 50%, #3b82f6 100%);
+    font-family: 'Outfit', 'Poppins', sans-serif;
+    color: #2d3748;
+    margin: 0;
+    padding: 30px 15px;
+    min-height: 100vh;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 14% auto 22%;
+    gap: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-card {
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* ==========================================================================
+   GRID ITEM PLACEMENT (Slide 18 - 20)
+   ========================================================================== */
+#header {
+    grid-column: 1 / span 3;
+   display: flex;
+    flex-direction: column;
+	justify-content: center;
+    gap: 12px;
+    text-align: center;
+	padding: 20px;
+}
+
+#main1 {
+    grid-column: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+    gap: 12px;
+    text-align: center;
+	padding: 20px;
+}
+
+#main2 {
+    grid-column: 3 / span 1;
+    text-align: center;
+}
+
+#main3{
+    grid-column: 1 / span 3;
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+    gap: 12px;
+    text-align: center;
+	padding: 20px;
+}
+
+#footer {
+    grid-column: 1 / span 3;
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+    gap: 12px;
+    text-align: center;
+	padding: 20px;
+}
+
+#footer1 {
+    grid-column: 1 / span 3;
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+    gap: 12px;
+    text-align: center;
+	padding: 20px;
+}
+
+#footer2 {
+    grid-column: 1 / span 3;
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+    gap: 12px;
+    text-align: center;
+	padding: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	 .grid-container {
+        grid-template-columns: auto 28%;
+        gap: 14px;
+        padding: 0 10px;
+    }
+
+    #header {
+        grid-column: 1 / span 2;
+    }
+
+    #menu {
+        grid-column: 1 / span 2;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .menu-item {
+        display: inline-block;
+    }
+
+    #main {
+        grid-column: 1 / span 1;
+    }
+
+    #right {
+        grid-column: 2 / span 1;
+    }
+
+    #footer {
+        grid-column: 1 / span 2;
+    }
+}
+
+.mainpic {
+	width: 250px;
+	border: 3px solid red;
+	
+}
+
+.mainpic1 {
+	width: 200px;
+	border: 3px solid red;
+	
+}
+
+.tarara{
+	 margin: 30px auto;
+    width: 500px;
+    padding: 20px 40px;
+	
+
+}

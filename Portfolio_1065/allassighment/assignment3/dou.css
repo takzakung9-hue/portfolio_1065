@@ -1,0 +1,136 @@
+body{
+     background-color: #ffffff;
+}
+
+.references {
+    text-align: center;
+    margin: 30px;
+}
+
+div a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2b6cb0;
+    background-color: #ebf8ff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    margin: 20px auto;
+    
+    background-color: #f6ced9;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+hr{
+    color: #c9434e;
+    background-color: #911d1d;
+    height: 10px;
+}
+
+h2 {
+    margin: 20px auto;
+    
+    background-color: #f6ced9;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.ttd {
+    text-align: left;
+    padding: 15px 30px;
+    margin: 30px;
+    border: 3px solid #911d1d;
+    border-radius: 15px;
+}
+
+
+ul {
+      margin: 30px auto;
+    width: 1000px;
+    padding: 20px 40px;
+}
+
+.uul{
+     margin: 30px auto;
+    width: 1000px;
+    padding: 20px 40px;
+    border: 3px solid #911d1d;
+    border-radius: 15px;
+}
+.kanom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fbfbfb;
+    border-radius: 16px;
+    justify-content: center;
+    padding: 20px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.kanom > div {
+    background-color: #eee4e4;
+    border: 5px  #c9434e;
+    border-radius: 12px;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.kanom img {
+    width: 100%;
+    margin: 10px 0;
+    
+}
+
+a, img, div, .kanom, .kanom > div{
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border-color: #ce313e;
+}
+
+.kanom img:hover, .kanom > div img:hover {
+    transform: scale(1.15) ;
+    filter: drop-shadow(0 8px 16px rgba(206, 49, 49, 0.35));
+    border-color: #ce313e;
+}
+
+
+
+div a:hover {
+    background-color: #b02b36;
+    /* color: #ffffff;
+    text-decoration: none; */
+    box-shadow: 0 6px 12px rgba(176, 43, 43, 0.3);
+    transform: translateY(-2px);
+    color: #e53e3e;
+    text-decoration: underline;
+    border-color: #ce313e;
+}
+
+div a:active {
+    transform: translateY(1px) scale(0.97);
+    box-shadow: 0 2px 4px rgba(176, 43, 43, 0.2);
+    color: #dd6b20;
+    border-color: #ce313e;
+}
+
+
+
+#num1{
+    width: 350px;
+        border-radius: 50px;
+
+}
+
+.taraar{
+    border: 10px solid #911d1d;
+    border-radius: 15px;
+}
